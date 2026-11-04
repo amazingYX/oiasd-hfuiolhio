@@ -223,7 +223,11 @@ Additional task-level summaries may be written to text files in the repository r
 - The `gpt2/` directory and `wte_pca_500.pt` must be prepared before training.
 - All commands should be executed from the repository root to preserve relative-path resolution.
 
-## 11. Acknowledgements
+## 11. Code Release Notice
+
+The complete training shell scripts (`.sh`) for reproducing all experiments reported in the paper will be released upon acceptance of the paper.
+
+## 12. Acknowledgements
 
 This implementation is developed based on the CALF forecasting framework and incorporates components from established time-series forecasting repositories. We gratefully acknowledge the authors of the following open-source projects:
 
